@@ -94,7 +94,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 BRAINTREE_MERCHANT_ID = 'g4npx9g3yfrxr3hg'  # Merchant ID
 BRAINTREE_PUBLIC_KEY = '35nvh25kzf6mzwyd'   # Public Key
 BRAINTREE_PRIVATE_KEY = '9175a77a7e474dfb6c5603203dc1514c'  # Private key
