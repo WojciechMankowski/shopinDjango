@@ -1,0 +1,4 @@
+<!-- {{action="{% url 'cart:cart_add' product.id %}"}} 
+        -->
+
+         <!-- action="{% url " cart:cart_remove" product.id %}" -->
